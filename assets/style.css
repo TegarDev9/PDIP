@@ -226,3 +226,8 @@ body{
 .edit-form.show {
   display: block;
 }
+
+footer{
+  height: auto;
+  display: block;
+}
