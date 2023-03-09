@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>PDIP</title>
+</head>
+<body>
+
+    <header>
+        <img src="assets/image/pdi.png" alt="logo pdi">
+        <h1>Perpustakaan Digital Gratis Pelajar</h1>
+        <h2>(PDIP)</h2>
+        <p>Cinta ibarat membaca, membutuhkan ketekunan dan kesabaran. Seperti membaca sebuah novel, cinta mempunyai cerita yang beragam, kadang kala indah, namun terkadang juga pahit. Namun, ketika kita bisa mengerti dan menikmati setiap bab dari cerita cinta, maka kita akan menemukan kebahagiaan dan keindahan yang tak ternilai harganya.</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Meu Utama</a></li>
+          <li><a href="#">Baca</a></li>
+          <li><a href="#">Pengaturan</a></li>
+          <li><a href="#">Kisah  PDIP</a></li>
+       
+        </ul>
+      </nav>  
+        <form id="searchpdi">
+          <input id="searchpdiTitle" type="text" required  placeholder="Cari buku berdasarkan Judul buku">
+          <button id="searchSubmit" type="submit">Cari</button>
+        </form>
+      <section class="input_section">
+        <form id="inputpdi">
+            <h3>Tambahkan Buku Baru </h3>
+            <br>
+          <div class="input">
+            <label for="inputpdiTitle">Judul</label>
+            <input id="inputpdiTitle" type="text" required placeholder="Maasukkan Nama Judul Buku"> 
+          </div>
+          <div class="input">
+            <label for="inputpdiAuthor">Penulis</label>
+            <input id="inputpdiAuthor" type="text" required placeholder="Masukkan Nama Penulis Buku ">
+          </div>
+          <div class="input">
+            <label for="inputpdiYear">Tahun</label>
+            <input id="inputpdiYear" type="number" require placeholder="Masukkan Tahun Terbit Buku ">
+          </div>
+          <div class="input_inline">
+            <label for="inputpdiIsComplete">Selesai dibaca</label>
+            <input id="inputpdiIsComplete" type="checkbox">
+          </div>
+          <button id="pdipubmit" type="submit">Masukkan Buku ke rak <span>Belum selesai dibaca</span></button>
+
+        </form>
+
+        <section class="search_section">
+        
+            <h4>Belum  dibaca</h4>
+        
+            <div id="incompletepdi" class="pdi_list">
+             
+            </div>
+          </section>
+          
+          <section class="pdi_shelf">
+            <h4>Selesai dibaca</h4>
+            
+            <div id="completepdi" class="pdi_list">
+           
+            </div>
+          </section>
+      </section>
+
+      <footer>
+        &copy; 2023 pdip.com | <a href="#">Kebijakan Privasi</a> | <a href="#">Syarat dan Ketentuan</a> |<a href="#">Tegar karunia ilham</a>
+      </footer>  
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script src="assets/js/dom.js"></script>
+      <script src="assets/js/scripts.js"></script>
+      <script src="assets/js/data.js"></script>
+</body>
+</html>

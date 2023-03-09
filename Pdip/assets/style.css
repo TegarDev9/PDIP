@@ -1,0 +1,224 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image: url(image/megachan.jpg);
+}
+  
+  header {
+    background: linear-gradient(to right, black, red);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+  }
+  header img{
+    width:200px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #666;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
+  }
+  .input_section {
+    display:flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items:flex-start;
+
+    background: linear-gradient(to right, black, red);
+   
+}
+
+
+.input_section  h3 {
+    text-align: center;
+    color: black;
+}
+
+.input_section > form > .input {
+    margin:10px 
+  
+}
+
+.input_section > form > button {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section > form > .input > label {
+    color: red;
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+.input_section [type=submit]:hover{
+    background-color:black;
+    
+}
+#searchpdiTitle {
+    display: table-row;
+    width: 60%;
+    color: black;
+    background-color: white;
+  }
+  
+  #searchSubmit {
+    display: inline-block;
+    width: 20%;
+    color: red;
+  }
+
+  #searchSubmit:hover{
+    background-color: black;
+  }
+  
+.search_section form {
+    width: 100%;
+    
+  }
+  
+  .input_section h2,
+  .search_section h2 {
+    margin-bottom: 10px;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 768px) {
+
+ 
+    header {
+      display: block;
+    }
+    nav {
+    width: auto;
+    }
+    nav ul{
+        width: auto;
+    }
+    nav ul li {
+    width: auto;
+    }
+  
+  
+    .container {
+      margin: 50px;
+  
+  }
+
+  section{
+    width: auto;
+  }
+
+
+
+  .btn-sm-icon {
+  padding: 1px; 
+}
+
+.btn-sm-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+}
+
+
+.edit-form {
+  display: none;
+}
+
+.edit-form.show {
+  display: block;
+}
