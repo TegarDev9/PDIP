@@ -176,7 +176,11 @@ body{
 
   @media screen and (max-width: 768px) {
 
- 
+    
+    body{
+      display: block;
+      width:auto;
+    }
     header {
       display: block;
     }
